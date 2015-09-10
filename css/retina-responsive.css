@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* Retina Ready Images */
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+h1#logo a { background:url(../images/bg-logo@2x.png) no-repeat; background-size:249px 64px; }
+
+.email {background:url(../images/bg-email@2x.png) no-repeat; background-size:24px 24px; }
+.xing {background:url(../images/bg-xing@2x.png) no-repeat; background-size:24px 24px; }
+.google {background:url(../images/bg-googleplus@2x.png) no-repeat; background-size:24px 24px; }
+.tweat {background:url(../images/bg-tweat@2x.png) no-repeat; background-size:24px 24px; } 
+.twitter {background:url(../images/bg-twitter@2x.png) center no-repeat #fff; background-size:32px 32px; } 
+.facebook {background:url(../images/bg-facebook@2x.png) no-repeat; background-size:24px 24px; }
+.pinterest {background:url(../images/bg-pinterest@2x.png) no-repeat; background-size:24px 24px; }
+.instagram {background:url(../images/bg-instagram@2x.png) no-repeat; background-size:24px 24px; }
+.vimeo {background:url(../images/bg-vimeo@2x.png) no-repeat; background-size:24px 24px; }
+.skype {background:url(../images/bg-skype@2x.png) no-repeat; background-size:24px 24px; }
+.dribble {background:url(../images/bg-dribble@2x.png) no-repeat; background-size:24px 24px; }
+.link {background:url(../images/bg-link@2x.png) center no-repeat; background-size:24px 24px; }
+.video {background:url(../images/bg-video@2x.png) center no-repeat; background-size:24px 24px; }
+.bubble {background:url(../images/bg-bubble@2x.png) center no-repeat; background-size:24px 24px; }
+.quote {background:url(../images/bg-heart@2x.png) center no-repeat; background-size:24px 24px; }
+.slideshow {background:url(../images/bg-slideshow@2x.png) center no-repeat; background-size:28px 15px; }
+.aside {background:url(../images/bg-aside@2x.png) center no-repeat; background-size:23px 23px; }
+.close {background:url(../images/bg-close@2x.png) center no-repeat; background-size:18px 18px;}
+.design {background:url(../images/bg-design@2x.png) center no-repeat; background-size:25px 22px; }
+.magic {background:url(../images/bg-magic@2x.png) center no-repeat; background-size:24px 24px; }
+.coding {background:url(../images/bg-coding@2x.png) center no-repeat; background-size:24px 24px; }
+
+span.bullet {background:url(../images/bg-bullet@2x.png) no-repeat 0px 5px; background-size:6px 6px; }
+
+ul.list li { background:url(../images/bg-bullet@2x.png) no-repeat 3px 5px; background-size:6px 6px; }
+ul.check li { background:url(../images/bg-check@2x.png) no-repeat 3px 5px; background-size:13px 11px; }
+
+.flex-direction-nav .flex-next {background:url(../images/bg-next@2x.png) center no-repeat; background-size:15px 22px; }
+.flex-direction-nav .flex-prev {background:url(../images/bg-prev@2x.png) center no-repeat; background-size:15px 22px; }
+
+.fancybox-close {background: url(../images/bg-close@2x.png) center no-repeat #fbfbfb; background-size:18px 18px;}
+.fancybox-prev span {background: url(../images/bg-prev@2x.png) center no-repeat; background-size:15px 22px;}
+.fancybox-next span {background: url(../images/bg-next@2x.png) center no-repeat; background-size:15px 22px;}
+
+.jcarousel-skin-tango2 .jcarousel-next-horizontal { background:url(../images/bg-next@2x.png) center no-repeat; background-size:15px 22px; }
+.jcarousel-skin-tango2 .jcarousel-prev-horizontal { background:url(../images/bg-prev@2x.png) center no-repeat; background-size:15px 22px; }
+}
+
+
+@media only screen and (min-width: 1600px) {
+/*.container { padding:0px; width:1600px; position:relative; margin:0 auto; }*/
+}
+
+@media only screen and (min-width: 1280px) {
+/*.container { padding:0px; width:1280px; position:relative; margin:0 auto; }*/
+}
+
+/* Standard 960 or larger (browsers) */
+@media only screen and (min-width: 960px) {
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+.container, .jcarousel-skin-tango2 .jcarousel-container-horizontal { width:640px; }
+.name.company {width:431px; }
+.name.portfolio {width:350px }
+.name.services {width:292px }
+.name.team {width:379px }
+.name.blog {width:307px }
+.name.contact {width:437px }
+.barrier, .col1-1, .col1-2, .col1-2.paddingright-20, .col1-2.paddingleft-20 {width:620px; }
+.col1-2.paddingleft-20, .col1-2.paddingright-20 {padding:0}
+.logo {height:76px; padding-top:20px; }
+.break {height:23px; }
+#contactform {padding-bottom:6px }
+.flexslider {width:620px }
+.col1-2 .images {width:430px; }
+.project-detail {width:620px; margin-left:0px; margin-top:25px; }
+.flex-direction-nav a {top:205px }
+.col1-3.blog {display:none; }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 767px) {
+.container, .jcarousel-skin-tango2 .jcarousel-container-horizontal { width:320px; }
+.social li {display:block; margin:5px 1px; }
+header ul.social {padding-top:8px }
+.number {display:none; }
+.toggle {background:none }
+.name { padding-left:10px; width:310px !important;}
+.logo {margin-right:3px; }
+.barrier, .col1-1, .col1-2, .col1-2.paddingright-20, .col1-2.paddingleft-20, .col2-3 {width:300px; }
+.col1-2.paddingleft-20, .col1-2.paddingright-20 {padding:0}
+.logo {height:76px; padding-top:20px; }
+.break {height:23px; }
+#contactform {padding-bottom:6px }
+.flexslider {width:300px }
+.flex-direction-nav .flex-next {left:234px }
+.col1-2 .images, .flexslider .slides img {width:290px; }
+.project-detail {width:300px; margin-left:0px; margin-top:25px; }
+.flex-direction-nav a {top:102px }
+input, textarea, select, .error_message, #success_page {width:268px; }
+.col1-3.blog {display:none; }
+}
